@@ -1,11 +1,10 @@
-.prose {
-  max-width: 100%;
+/* Increase top bar font */
+
+body > div:nth-child(2) a {
+  font-size: 1.3rem;
 }
 
-.max-w-prose {
-  max-width: 100%;
-}
-
-.footer-icons {
-  font-size: 2.125rem;
+#appearance-switcher svg {
+  width: 1.2rem;
+  height: 1.2rem;
 }

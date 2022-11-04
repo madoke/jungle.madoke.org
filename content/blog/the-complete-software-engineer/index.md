@@ -2,9 +2,11 @@
 slug: the-complete-software-engineer
 title: The complete software engineer
 summary: What does it take to excel as a software engineer and what other aspects beyond programming can help us differentiate ?
-categories: [Engineering, Software Development, Career]
-tags: [Software Development, Engineering, DevOps, Recruitment, Career]
+categories: [Engineering]
+tags: [Software Development, Career]
 date: 2021-05-09T00:00:00+00:00
+authors:
+  - davidsimao
 ---
 
 Technology and automation are tapping into every possible industry and the demand for software engineers has never been higher. Building successful companies gets harder every time because of all the competition creating new challenges everywhere, and as more people try to get themselves a good slice of the giant IT pizza, the need for differentiation between engineers becomes crucial to get a taste of that pepperoni.

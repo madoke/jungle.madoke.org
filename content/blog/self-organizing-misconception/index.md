@@ -2,9 +2,11 @@
 slug: self-organizing-misconception
 title: Self-organizing teams misconception
 summary: Reflecting on the common problem of leadership across multiple teams in scale-up organizations
-categories: [Engineering, Leadership, Teams, Organizations]
-tags: [Teams, Leadership]
+categories: [Leadership]
+tags: [Teams, Organizations]
 date: 2022-10-09T00:00:00+00:00
+authors:
+  - davidsimao
 ---
 
 Tech startups are good examples of productivity. With small teams on limited resources, every member usually exercises multiple competencies from engineering to product and leadership. While this is in most cases not an option, it creates a positive outcome of high accountability and alignment with the company's mission. The ones that succeed and need to scale will most likely at some point struggle to maintain this cohesion and control the chaos that naturally comes with more people onboard.

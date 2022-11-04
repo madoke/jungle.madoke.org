@@ -3,13 +3,23 @@ colorScheme: noir
 
 enableSearch: true
 
+list:
+  showSummary: true
+
+article:
+  showViews: false
+  showSummary: true
+  sharingLinks: false
+  showAuthorsBadges: true
+  showTaxonomies: true
+  showTableOfContents: true
+  showEdit: false
+  showAuthor: false
+
 homepage:
+  layout: hero
+  homepageImage: img/jungle.jpg
   showRecent: true
   showRecentItems: 5
   showMoreLink: true
   showMoreLinkDest: /blog
-
-footer:
-  links:
-    - ipfs: ipfs.madoke.org
-    - rss: /blog/index.xml
