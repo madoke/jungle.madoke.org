@@ -1,6 +1,6 @@
-# madoke.org
+# jungle.madoke.org
 
-Static website built with Hugo and PaperMod theme
+Source code for the jungle.madoke.org website
 
 ## How to run
 

@@ -1,5 +1,3 @@
 ---
-title: "Reading awaits."
-authors:
-  - davidsimao
+title: "Welcome to the jungle"
 ---
