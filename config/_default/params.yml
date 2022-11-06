@@ -17,7 +17,7 @@ article:
   showAuthor: false
 
 homepage:
-  layout: hero
+  layout: background
   homepageImage: img/jungle.jpg
   showRecent: true
   showRecentItems: 5
