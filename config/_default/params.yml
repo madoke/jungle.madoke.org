@@ -2,11 +2,16 @@
 colorScheme: noir
 
 enableSearch: true
+defaultBackgroundImage: img/jungle.jpg
 
 list:
   showSummary: true
+  showHero: true
+  heroStyle: background
 
 article:
+  showHero: true
+  heroStyle: background
   showViews: false
   showSummary: true
   sharingLinks: false
@@ -18,8 +23,10 @@ article:
 
 homepage:
   layout: background
-  homepageImage: img/jungle.jpg
   showRecent: true
   showRecentItems: 5
   showMoreLink: true
   showMoreLinkDest: /blog
+
+header:
+  layout: fixed
