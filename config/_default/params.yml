@@ -24,9 +24,19 @@ article:
 homepage:
   layout: background
   showRecent: true
-  showRecentItems: 5
+  showRecentItems: 10
   showMoreLink: true
   showMoreLinkDest: /blog
+
+taxonomy:
+  showSummary: true
+  showHero: true
+  heroStyle: background
+
+term:
+  showSummary: true
+  showHero: true
+  heroStyle: background
 
 header:
   layout: fixed
