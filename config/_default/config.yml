@@ -1,12 +1,18 @@
 theme: blowfish
+
 baseUrl: /
+title: "Welcome to the jungle"
 defaultContentLanguage: en
+paginate: 10
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-paginate: 5
+enableEmoji: true
+enableGitInfo: true
+canonifyURLs: true
+
 summaryLength: 30
-enableRobotsTXT: true
+
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -28,7 +34,6 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
-
 
 taxonomies:
   tag: tags

@@ -3,7 +3,7 @@ slug: surviving-at-the-bottom-of-the-iceberg
 title: Surviving at the bottom of the iceberg
 summary: A classic tale of a team that deluded themselves with the mirage of breaking a monolith into shiny new microservices on a limited budget, understaffed and fast-paced environment
 categories: [Engineering]
-tags: [Technical Debt, Scalability, Software Development]
+tags: [Technical Debt, Scalability, Software Engineering]
 date: 2021-08-06T00:00:00+00:00
 authors:
   - davidsimao

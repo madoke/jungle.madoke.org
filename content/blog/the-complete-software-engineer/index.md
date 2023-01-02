@@ -3,7 +3,7 @@ slug: the-complete-software-engineer
 title: The complete software engineer
 summary: What does it take to excel as a software engineer and what other aspects beyond programming can help us differentiate ?
 categories: [Engineering]
-tags: [Software Development, Career]
+tags: [Software Engineering, Career]
 date: 2021-05-09T00:00:00+00:00
 authors:
   - davidsimao

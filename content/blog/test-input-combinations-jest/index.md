@@ -2,7 +2,7 @@
 slug: test-input-combinations-jest
 title: Multiple test input combinations with jest
 summary: A simple method to generate exhaustive input combinations for test cases while maintaining a healthy and readable test codebase
-categories: [Programming]
+categories: [Engineering]
 tags: [Jest, Software Testing]
 date: 2022-11-13T00:00:00+00:00
 authors:

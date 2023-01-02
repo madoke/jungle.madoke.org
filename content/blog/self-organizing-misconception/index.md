@@ -2,8 +2,8 @@
 slug: self-organizing-misconception
 title: Self-organizing teams misconception
 summary: Reflecting on the common problem of leadership across multiple teams in scale-up organizations
-categories: [Leadership]
-tags: [Teams, Organizations]
+categories: [People]
+tags: [Leadership, Teams, Organizations]
 date: 2022-10-09T00:00:00+00:00
 authors:
   - davidsimao

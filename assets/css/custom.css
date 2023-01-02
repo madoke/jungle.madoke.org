@@ -1,12 +1,20 @@
-/* Increase top bar font */
-
-body > div:nth-child(2) a {
-  font-size: 1.3rem;
-}
-
 /* Increase icon size */
 
 .icon svg {
   width: 1.2rem;
   height: 1.2rem;
+}
+
+.site-header {
+  padding-bottom: 0;
+}
+
+.site-header-title a,
+.site-header-menu-main a {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.site-header-menu-subnavigation a {
+  font-weight: 600;
 }
