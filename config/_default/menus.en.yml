@@ -1,17 +1,8 @@
 ---
 main:
   - name: All Articles
-    identifier: allarticles
     pageRef: blog
     weight: 1
-  - name: Analytics
-    pageRef: blog
-    weight: 1
-    parent: allarticles
-  - name: Engagement
-    pageRef: blog
-    weight: 2
-    parent: allarticles
 
 subnavigation:
   - name: Engineering

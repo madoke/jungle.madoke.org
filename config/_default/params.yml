@@ -12,6 +12,7 @@ list:
 article:
   showHero: true
   heroStyle: background
+  layoutBackgroundBlur: true
   showViews: false
   showSummary: true
   sharingLinks: false
