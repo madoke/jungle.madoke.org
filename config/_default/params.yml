@@ -1,17 +1,17 @@
 ---
 colorScheme: noir
 
+logo: img/lion.png
+
 enableSearch: true
-defaultBackgroundImage: img/jungle.jpg
 
 list:
   showSummary: true
-  showHero: true
-  heroStyle: background
 
 article:
   showHero: true
-  heroStyle: background
+  heroStyle: big
+
   layoutBackgroundBlur: true
   showViews: false
   showSummary: true
@@ -23,7 +23,7 @@ article:
   showAuthor: false
 
 homepage:
-  layout: background
+  layout: page
   showRecent: true
   showRecentItems: 10
   showMoreLink: true
@@ -31,13 +31,9 @@ homepage:
 
 taxonomy:
   showSummary: true
-  showHero: true
-  heroStyle: background
 
 term:
   showSummary: true
-  showHero: true
-  heroStyle: background
 
 header:
   layout: fixed
