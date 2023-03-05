@@ -21,7 +21,7 @@ All centralized platforms share the same set of problems including data breaches
 
 Last year was one of Twitter’s most controversial years, ending with the platform being [sold to Elon Musk](https://www.bbc.com/news/technology-63402338), who believes the product and its user base are worth $44 billion. While the majority is patiently awaiting to be amused by his next move, the first months were not bright, and decentralized alternatives gained new momentum.
 
-## NOSTR
+## [NOSTR](https://nostr.com/)
 
 [Notes and Other Stuff transmitted by Relays](https://nostr.com/) is an [open protocol](https://github.com/nostr-protocol/nostr), that can be used for creating a decentralized, censorship-resistant social network. The idea is very simple: Each user has its own public/private key pair, signs messages, and broadcasts them to multiple relays. Relays are just dumb servers that receive and forward messages from users. They don’t talk to each other and don’t need to be trusted since the signatures are created and verified client side.
 
@@ -29,7 +29,7 @@ Last year was one of Twitter’s most controversial years, ending with the platf
 
 The protocol is still early days and has very few contributors but was interesting enough to have [caught Jack Dorsey’s attention](https://www.coindesk.com/tech/2022/12/15/jack-dorsey-gives-decentralized-social-network-nostr-14-btc-in-funding/). One of the most promising nostr clients is [Damus](https://damus.io/), an iOS app launched in January that looks and feels like Twitter, despite some usability issues like users being identified by their public keys.
 
-## Mastodon
+## [Mastodon](https://joinmastodon.org/)
 
 Social media app that also bears a striking resemblance to Twitter, but with a unique twist. The platform boasts federation capabilities thanks to the [ActivityPub](https://docs.joinmastodon.org/spec/activitypub/) protocol. This means that instead of centralizing data in one location, it is distributed among multiple server operators. Users can choose which Mastodon server to use and trust their data with, providing them with more options regarding privacy and censorship resistance. Thanks to the federation, users from different Mastodon servers can communicate with each other, creating a shared communication space akin to that of Twitter.
 
@@ -37,7 +37,7 @@ Social media app that also bears a striking resemblance to Twitter, but with a u
 
 Mastodon has experienced a surge in popularity in 2022 due to the controversies surrounding Twitter. Despite this, it's not uncommon for Mastodon users to return to Twitter to advertise their Mastodon accounts and engage with their followers. Mastodon is a nonprofit organization that fully supports open-source, making it a unique and promising alternative to Twitter.
 
-## Bluesky / AT
+## [Bluesky / AT](https://atproto.com/)
 
 Jack Dorsey has been advocating for Twitter to become a decentralized internet standard rather than a social network, [citing the platform's centralization problems](https://twitter.com/jack/status/1204766081404956674). He established Bluesky, a team tasked to work on this vision, and they came up with the [Authenticated Transfer Protocol](https://atproto.com/). The Bluesky social network, though still in private beta, will likely be its first implementation.
 
@@ -65,7 +65,7 @@ While these decentralized social media platforms have exciting features and pote
 
 Making a mark in the space is certainly challenging, not only due to the scalability requirements but also because the industry giants are the most dominant. Social networks, however, are one good example where the problems of centralization become visible quite fast, especially when there’s government and politics in the mix. This is the differentiating factor for all of the above projects, which were built from the ground up with decentralization in mind.
 
-- Privacy and censorship resistance: Probably not something that could be found on Twitter or Facebook’s todo list 15 years ago and now, with an enormous user base and potential for marketing/propaganda, and certainly governments chipping in, It’s more likely that they try to shift users’ attention to something else rather than fixing it;
+- Privacy and censorship resistance: Probably not something that could be found on Twitter or Facebook’s todo list 15 years ago and now, with an enormous user base and potential for marketing/propaganda, and certainly governments chipping in, it’s more likely that they try to shift users’ attention to something else rather than fixing it;
 - Full open-source: While no one can contest that all Internet giants are among the biggest open-source contributors, they still fall behind in terms of transparency when compared to platforms and protocols that are open from the get-go, and in some cases even before they were an actual product;
 - Protocol first: An open ecosystem where any developer can build a different app that interoperates with the others, like email/SMTP, is the groundwork to build a diverse ecosystem with fair competition, or at least freedom of choice;
 - Open to participation and DIY: A consequence of the previous two points is that anyone can participate in the network by hosting and federating their own nodes. Certainly not a feature for the average user, however an important step against centralization. Not only the data is scattered across multiple node operators, but also the users can choose which one to trust;
