@@ -1,8 +1,6 @@
 ---
 colorScheme: noir
 
-logo: img/lion.png
-
 enableSearch: true
 
 list:
@@ -36,4 +34,4 @@ term:
   showSummary: true
 
 header:
-  layout: fixed
+  layout: basic
