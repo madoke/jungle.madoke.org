@@ -3,6 +3,9 @@ main:
   - name: All Articles
     pageRef: blog
     weight: 1
+  - name: RSS
+    url: /index.xml
+    weight: 2
 
 subnavigation:
   - name: Engineering
