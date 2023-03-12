@@ -2,8 +2,19 @@
 slug: an-ipfs-adventure
 title: An IPFS adventure
 summary: Excited with all the Web3 and self-hosting hype, I've set myself on a mission to self-host this blog on a self-hosted IPFS cluster. Here's what I learned from it
-categories: [Technology]
-tags: [Ipfs, Web3]
+categories: [Engineering, Web3, Tech]
+tags:
+  [
+    Ipfs,
+    Web3,
+    Cloudflare,
+    Pinata,
+    Infura,
+    DNSLink,
+    DHT,
+    Decentralized Storage,
+    Protocol Labs,
+  ]
 date: 2021-10-12T00:00:00+00:00
 authors:
   - davidsimao

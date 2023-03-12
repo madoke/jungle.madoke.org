@@ -2,8 +2,19 @@
 slug: a-new-breed-of-twitter-killers
 title: A new breed of twitter killers
 summary: Brief analysis of the most popular decentralized social network projects. How they work, what are the biggest pros and cons, and what do they offer that differentiates them from industry giants.
-categories: [Technology]
-tags: [Web3, Social Networks]
+categories: [Web3, Tech]
+tags:
+  [
+    Web3,
+    Social Networks,
+    Twitter,
+    Mastodon,
+    Nostr,
+    Minds,
+    Lens,
+    Bluesky,
+    AT Protocol,
+  ]
 date: 2023-02-26T00:00:00+00:00
 authors:
   - davidsimao

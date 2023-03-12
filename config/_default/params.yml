@@ -32,6 +32,8 @@ taxonomy:
 
 term:
   showSummary: true
+  showHero: true
+  heroStyle: basic
 
 header:
   layout: basic

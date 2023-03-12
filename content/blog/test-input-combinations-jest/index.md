@@ -2,8 +2,18 @@
 slug: test-input-combinations-jest
 title: Multiple test input combinations with jest
 summary: A simple method to generate exhaustive input combinations for test cases while maintaining a healthy and readable test codebase
-categories: [Engineering]
-tags: [Jest, Software Testing]
+categories: [Engineering, Software Development]
+tags:
+  [
+    Jest,
+    Software Testing,
+    Javascript,
+    Typescript,
+    describe.each,
+    test.each,
+    Test Case,
+    Input Combinations,
+  ]
 date: 2022-11-13T00:00:00+00:00
 authors:
   - davidsimao
@@ -13,7 +23,7 @@ One challenge that I've been facing recently is how to write readable jest tests
 
 ## A practical example
 
-Let's imagine that we have the following callback `computeIngredients(cake, vegan): Ingredient[]` which returns the list of ingredients required to make a cake, supporting both vegan and non vegan recipes. We want to implement a business rule that requires `PeanutButter` to always be in the list of ingredients regardles of the cake or wether its vegan. Given that we only support `ChocolateCake` and `OrangeCake` for now, it would be fairly simple to cover all test cases:
+Let's imagine that we have the following callback `computeIngredients(cake, vegan): Ingredient[]` which returns the list of ingredients required to make a cake, supporting both vegan and non-vegan recipes. We want to implement a business rule that requires `PeanutButter` to always be in the list of ingredients regardless of the cake or whether its vegan. Given that we only support `ChocolateCake` and `OrangeCake` for now, it would be fairly simple to cover all test cases:
 
 ```javascript
 describe("Compute Ingredients", () => {
@@ -117,4 +127,4 @@ Compute ingredients
 
 ## Conclusion
 
-We should always try to keep our tests as simple as possible, easier to read and to maintain. Nesting `describe.each` scopes provides a simple way to generate the highest possible number of argument combinations and test our code against all of them, giving us more confidence to release. On the other hand, abusing this functionality might also mean that our interfaces are too complex or not well structured and the wisest thing to do could be to rethink them.
+We should always try to keep our tests as simple as possible, easier to read and to maintain. Nesting `describe.each` scopes provides a simple way to generate the highest possible number of argument combinations and test our code against all of them, giving us more confidence to release. On the other hand, abusing this functionality might also mean that our interfaces are too complex or not well-structured and the wisest thing to do could be to rethink them.

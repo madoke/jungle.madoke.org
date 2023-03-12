@@ -8,15 +8,15 @@ main:
     weight: 2
 
 subnavigation:
+  - name: Software Development
+    pageRef: categories/software-development
+    weight: 1
   - name: Engineering
     pageRef: categories/engineering
-    weight: 1
-  - name: Leadership
-    pageRef: tags/leadership
     weight: 2
-  - name: Technology
-    pageRef: categories/technology
+  - name: Crypto
+    pageRef: categories/crypto
     weight: 3
   - name: Web3
-    pageRef: tags/web3
+    pageRef: categories/web3
     weight: 4

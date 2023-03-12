@@ -1,8 +1,19 @@
 ---
-title: "Engineering Friendly Product Manager"
-summary: "The rules of engagement in solid partnership with engineering. The do's and don'ts as seen from a software developer's perspective."
-categories: ["Engineering"]
-tags: [Product Management]
+title: Engineering Friendly Product Manager
+summary: The rules of engagement in solid partnership with engineering. The do's and don'ts as seen from a software developer's perspective
+categories: [Engineering, Software Development]
+tags: [
+    Product Management,
+    Excel,
+    Martin Fowler,
+    Engineering Management,
+    Organization,
+    Innovation,
+    Product Teams
+    New Features,
+    Steve Jobs.,
+    iPod,
+  ]
 date: 2022-11-02
 externalUrl: https://nunocoracao.com/posts/202211-engineering-friendly-pm/
 draft: false

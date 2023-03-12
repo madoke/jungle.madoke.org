@@ -2,8 +2,19 @@
 slug: creating-optimal-pull-requests
 title: Creating optimal pull requests
 summary: An essay on the role of pull requests and their importance in the software development cycle and what strategies can we use to improve them
-categories: [Engineering]
-tags: [Git, Pull Requests, Software Engineering]
+categories: [Engineering, Software Development]
+tags:
+  [
+    Git,
+    Pull Requests,
+    Github,
+    Commits,
+    Code Formatting,
+    Code Readability,
+    Software Development Process,
+    Comments,
+    Code Review,
+  ]
 date: 2022-08-13T00:00:00+00:00
 authors:
   - davidsimao

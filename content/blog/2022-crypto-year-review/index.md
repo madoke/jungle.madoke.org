@@ -2,8 +2,20 @@
 slug: 2022-crypto-year-review
 title: 2022 crypto year in review
 summary: A digest of 2022's most impactful events in the crypto and web3 space, including hacks, fraud, bankrupcy, and the latest tech developments in Bitcoin and Ethereum.
-categories: [Technology]
-tags: [Cryptocurrency, NFT, Web3]
+categories: [Web3, Nft, Crypto, Tech]
+tags:
+  [
+    Crypto,
+    NFT,
+    Web3,
+    FTX,
+    Bitcoin,
+    Ethereum,
+    Bored Ape Yacht Club,
+    Yuga Labs,
+    Polygon,
+    Luna,
+  ]
 date: 2023-01-16T00:00:00+00:00
 authors:
   - davidsimao

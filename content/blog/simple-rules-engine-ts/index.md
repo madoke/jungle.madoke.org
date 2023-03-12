@@ -2,8 +2,18 @@
 slug: simple-rules-engine-ts
 title: Building a simple rules engine in Typescript
 summary: Building a lightweight, general purpose and easy to use rules engine under 30 lines of Typescript. We'll start with an example use case and build the engine around it.
-categories: [Engineering]
-tags: [Programming, Typescript]
+categories: [Engineering, Software Development]
+tags:
+  [
+    Rules Engine,
+    Super Mario,
+    Generics,
+    Arrow Functions,
+    Code Readability,
+    Overengineering,
+    Rules Engine,
+    Typescript,
+  ]
 date: 2023-03-12T00:00:00+00:00
 authors:
   - davidsimao

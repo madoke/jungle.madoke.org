@@ -1,8 +1,24 @@
 ---
-title: "Apes and Kitten in the Music Industry"
-summary: "Technology has disrupted the music industry several times in history, changing the way we consume it, how it’s distributed and even how it’s made. In this article we’ll reflect about the good, the bad, and the ugly facts around NFTs in the music industry."
-categories: ["Technology"]
-tags: ["Nft", "Web3", "Music"]
+title: Apes and Kitten in the Music Industry
+summary: Technology has disrupted the music industry several times in history, changing the way we consume it, how it’s distributed and even how it’s made. In this article we’ll reflect about the good, the bad, and the ugly facts around NFTs in the music industry
+categories: [Web3, Nft, Tech]
+tags:
+  [
+    Nft,
+    Web3,
+    Music,
+    Steve Aoki,
+    Mike Shinoda,
+    TikTok,
+    Record Labels,
+    Spotify,
+    Rarible,
+    Sound.xyz,
+    Open Sea,
+    Sony BMG,
+    Warner,
+    Universal,
+  ]
 showSummary: true
 date: 2022-12-22
 draft: false
