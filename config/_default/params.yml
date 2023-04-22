@@ -3,19 +3,26 @@ colorScheme: noir
 
 enableSearch: true
 
+keywords:
+  - Engineering
+  - Software Development
+  - Tech
+  - Web3
+  - Crypto
+  - Nft
+
 list:
   showSummary: true
 
 article:
   showHero: true
   heroStyle: big
-
   layoutBackgroundBlur: true
   showViews: false
   showSummary: true
   sharingLinks: false
   showAuthorsBadges: true
-  showTaxonomies: true
+  showTaxonomies: false
   showTableOfContents: true
   showEdit: false
   showAuthor: false
