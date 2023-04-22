@@ -20,8 +20,6 @@ authors:
   - davidsimao
 ---
 
-![Logos](./img/logos.png)
-
 This website was recently migrated from [Docusaurus](https://docusaurus.io/) to [Hugo](https://gohugo.io/). The initial idea was to not dive into complex web development, but as I continued to produce more content and use cases, some customizations to the theme were needed, which proved to be a bit of a struggle in Docusaurus. After exploring [Gatsby](https://www.Gatsbyjs.com/) and Hugo as alternatives, I ended up sticking with the latter. In this article, I'll go through the main evaluation steps, comparing the three frameworks along the way and explain why Hugo was the final decision.
 
 ## Requirements

@@ -22,7 +22,7 @@ authors:
 
 Tech startups are good examples of productivity. With small teams on limited resources, every member usually exercises multiple competencies from engineering to product and leadership. While this is in most cases not an option, it creates a positive outcome of high accountability and alignment with the company's mission. The ones that succeed and need to scale will most likely at some point struggle to maintain this cohesion and control the chaos that naturally comes with more people onboard.
 
-![Self Organizing Teams](./img/self-organizing-teams.jpg "Image by Jason Goodman on Unsplash")
+![Self Organizing Teams](./img/self-organizing-team.jpg "Image by Jason Goodman on Unsplash")
 
 Scaling up is a painful and uncertain process, which is why, with no surprise, most organization models we see in scale-ups try to mimic the best practices and success stories from other companies that already walked the same runway. [Spotify squads](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/) and [Amazon 2-Pizza teams](https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html?utm_source=madoke.org), two of the most popular role models, were discussed in every place I've worked at for the past 6-7 years, alongside with [Google SRE book](https://sre.google/workbook/how-sre-relates/) and [Airbnb engineering culture](https://medium.com/airbnb-engineering/engineering-culture-at-airbnb-345797c17cbe?utm_source=madoke.org). These 4 companies alone were likely to have influenced most engineering organizations around the world, which is probably one of the reasons we're solving similar problems everywhere.
 
