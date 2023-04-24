@@ -21,8 +21,6 @@ authors:
 
 Maintenance and evolution of legacy systems is a popular challenge in software engineering. Every time we produce a line of code, and it reaches production, we’re already creating legacy for our future selves or somebody else to look after. If not properly maintained, most systems won’t age well, and therefore most of us will eventually at some point in our careers face a rusty old behemoth that’s important to the business and simply cannot be shut down. Circumstances are different in every company, but there are some common milestones and pitfalls during the recovery or replacement of an old system. In this article we'll go through some situations and try to understand the reasons that motivate them, as well as their potential solutions.
 
-![Iceberg](./img/iceberg.jpg "'Arctic Icebergs in Ilulissat, Greenland' by Alexander Hafemann on Unsplash")
-
 ## The business cannot stop
 
 Generally, most people in a company will be unaware of the systems stability and scalability assuming the products are working normally until actual issues are visible. Apart from small businesses, engineers and other participants in the business tend to be organized in different reporting structures with different agendas, so if there isn't a good communication and alignment strategy in place, this kind of issues escalates with the company's size.

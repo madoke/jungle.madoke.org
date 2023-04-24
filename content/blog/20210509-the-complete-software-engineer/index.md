@@ -24,8 +24,6 @@ authors:
 
 Technology and automation are tapping into every possible industry and the demand for software engineers has never been higher. Building successful companies gets harder every time because of all the competition creating new challenges everywhere, and as more people try to get themselves a good slice of the giant IT pizza, the need for differentiation between engineers becomes crucial to get a taste of that pepperoni.
 
-![Swiss army knife](./img/swiss-army-knife.jpg "'Swiss army knife' by @pf91_photography on Unsplash")
-
 ## The software engineer role
 
 But what do exactly SWEs do ? There are many areas of specialisation like embedded systems, AI, Data or Web, all of them different from each other but sharing the same engineering foundations. In the dot com bubble days, IT companies defined clear borders between developers and every other role in the business. A typical setup would include different people for infrastructure, systems, databases, security, technical support, and software development, which was what they knew to be the accepted formula on other industries like construction, electronics or automobile.

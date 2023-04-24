@@ -22,8 +22,6 @@ authors:
 
 Content sharing is today's most common internet activity, made easy and accessible to everyone thanks to cloud providers, social networks, blogging platforms etc. They spoil us with cheap, reliable and highly available services, while in return we give them our data and our attention. Most of us still don't grasp to what extent these companies exploit us, but the awareness and conversation around internet centralization are growing, and the latest cryptocurrency boom brought a wave of investment and the promise to build the so-called decentralized internet or [Web3](https://blog.cloudflare.com/what-is-web3/) and bring the [control back to the users](https://blog.coinbase.com/understanding-web-3-a-user-controlled-internet-a39c21cf83f3). Web3 is not what this article is about, but it's the reason why it happened. There's a lot of excitement and people working in the web3 scene at the moment, building groundbreaking technology and products, attempting to make web3 a reality. One such example is the [Inter Planetary File System](https://ipfs.io) (IPFS) that aims to fix the problem of content addressing and streaming on a peer-to-peer network. Drawn by the hype, and curiosity, I've set myself on the journey to build an IPFS cluster - what this article is actually about - for hosting this website. Below I'll discuss the ups and downs and some interesting (or not) conclusions about the current state of website hosting on IPFS.
 
-![Spider Web](./img/spider-web.jpg "Image by Shubham Sharma on Unsplash")
-
 ## Summary
 
 - I strongly believe self-hosting is somewhere down the road to decentralization and tried to go that route;
@@ -52,7 +50,8 @@ If I were to start over today, I'd probably use docker for the whole setup (lots
 
 The `ipfs` daemon by connects to other peers in the network to serve its own content and exposes a management API both over HTTP and [libp2p](https://libp2p.io/). All of the clustering features are implemented in the [`ipfs-cluster`](https://cluster.ipfs.io) daemon which runs alongside `ipfs` and operates it using the API. `ipfs-cluster` daemons communicate between themselves (only the cluster peers) to synchronize the content across all nodes in the cluster using [RAFT or CRDT consensus](https://cluster.ipfs.io/documentation/guides/consensus).
 
-```mermaid
+```md
+{{</* mermaid */>}}
 flowchart LR;
 ipfs-cluster1 <--> ipfs-cluster2 <--> ipfs-cluster3 <--> ipfs-cluster1
 subgraph node1 [node1]
@@ -68,6 +67,7 @@ ipfs1 <--> ipfs2 <--> ipfs3 <--> ipfs1
 ipfs1 --> other-ipfs-peers
 ipfs2 --> other-ipfs-peers
 ipfs3 --> other-ipfs-peers
+{{</* /mermaid */>}}
 ```
 
 ### Exposing the website over HTTP
@@ -81,6 +81,7 @@ Since we can rely on public IPFS gateways, there's no need to expose an HTTP end
 Having said all of that, I chose Cloudflare's DNS Registrar and public IPFS Gateway (cloudflare-ipfs.com) because they have quite good [documentation](https://developers.cloudflare.com/distributed-web/ipfs-gateway) and support... and it's almost free. The image below illustrates the first setup, and it pretty much resembles a common web stack: self-hosted files, hidden behind Cloudflare.
 
 ```mermaid
+{{</* mermaid */>}}
 graph LR;
 browser
 self-hosted-ipfs-cluster
@@ -91,6 +92,7 @@ end
 browser --> cloudflare-ipfs-gateway
 cloudflare-ipfs-gateway --> cloudflare-ipfs-nodes
 cloudflare-ipfs-nodes --> self-hosted-ipfs-cluster
+{{</* /mermaid */>}}
 ```
 
 ### Deploying files to the cluster

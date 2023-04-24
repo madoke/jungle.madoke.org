@@ -2,7 +2,6 @@
 slug: the-journey-of-a-push-notification
 title: The journey of a push notification
 summary: Lessons learned from building a push notification system for a cross-platform mobile application at Truphone
-externalUrl: https://truphone.medium.com/the-journey-of-a-push-notification-ee2b1bfe833
 categories: [Engineering, Software Development]
 tags:
   [
@@ -23,8 +22,6 @@ authors:
 {{< alert >}}
 This article was originally published externally, read the original <a target="_blank" href="https://truphone.medium.com/the-journey-of-a-push-notification-ee2b1bfe833">here</a>.
 {{</ alert >}}
-
-![Cover](./img/cover.webp)
 
 Sending [push notifications](https://en.wikipedia.org/wiki/Push_technology) to a device or browser implies that, in some way, the remote server is able to initiate a conversation with the client and not the other way around. Since the typical app/client does not expose a publicly available endpoint, this is achieved by maintaining an active connection between the client and the server (e.g. a TCP socket on accept mode) that is sending the notifications. The concept is really simple but, depending on how it is implemented, may raise a variety of scalability problems. If every app on a phone were to implement it, the device’s resources would be quickly drained. Moreover, app developers would need to deal with network failures, the app going into the background and most importantly security, otherwise, such a connection could be a potential attack surface. Android and iOS solve this problem at the framework level by managing the connection themselves to Google or Apple’s push notification services, while making the functionality available to all apps on the device. Not only is this far more secure and efficient, but it also makes push notifications a breeze to implement.
 

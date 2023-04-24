@@ -15,7 +15,6 @@ tags: [
     iPod,
   ]
 date: 2022-11-02
-externalUrl: https://nunocoracao.com/posts/202211-engineering-friendly-pm/
 draft: false
 authors:
   - davidsimao
