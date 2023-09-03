@@ -17,6 +17,3 @@ subnavigation:
   - name: Crypto
     pageRef: categories/crypto
     weight: 3
-  - name: Web3
-    pageRef: categories/web3
-    weight: 4
