@@ -1,19 +1,5 @@
 ---
 main:
-  - name: All Articles
+  - name: Articles
     pageRef: blog
     weight: 1
-  - name: RSS
-    url: /index.xml
-    weight: 2
-
-subnavigation:
-  - name: Software Development
-    pageRef: categories/software-development
-    weight: 1
-  - name: Engineering
-    pageRef: categories/engineering
-    weight: 2
-  - name: Crypto
-    pageRef: categories/crypto
-    weight: 3

@@ -21,6 +21,15 @@
       format("svg"); /* Legacy iOS */
 }
 
-html {
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.max-w-50 {
+  max-width: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: Merriweather, Inter, sans-serif;
 }

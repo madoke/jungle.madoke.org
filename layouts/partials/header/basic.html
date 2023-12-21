@@ -1,5 +1,5 @@
 <div
-    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    class="main-menu flex items-center justify-between px-4 py-4 sm:px-4 md:justify-start space-x-3">
     {{ if .Site.Params.Logo }}
     {{ $logo := resources.Get .Site.Params.Logo }}
     {{ if $logo }}
@@ -8,7 +8,7 @@
             <span class="sr-only">{{ .Site.Title | markdownify | emojify }}</span>
 
             <img src="{{ $logo.RelPermalink }}" width="{{ div $logo.Width 2 }}" height="{{ div $logo.Height 2 }}"
-                class="max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="{{ .Site.Title }}" />
+                class="max-h-50 max-w-50 rounded object-scale-down object-left nozoom" alt="{{ .Site.Title }}" />
 
         </a>
     </div>
@@ -17,9 +17,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
-            <a href="{{ "" | relLangURL }}" class="text-xl font-extrabold">{{
+            <h1><a href="{{ "" | relLangURL }}" class="text-xl font-extrabold">{{
                 .Site.Title | markdownify
-                | emojify }}</a>
+                | emojify }}</a></h1>
 
 
         </nav>
@@ -32,6 +32,10 @@
             {{ end }}
 
             {{ partial "translations.html" . }}
+
+            <a href="/index.xml" target="_blank" class="text-xl hover:text-primary-600 dark:hover:text-primary-400" title="RSS">
+                {{ partial "icon.html" "rss" }}
+            </a>
 
             {{ if .Site.Params.enableSearch | default false }}
             <button id="search-button" class="text-xl hover:text-primary-600 dark:hover:text-primary-400"
@@ -62,6 +66,10 @@
             <span></span>
 
             {{ partial "translations.html" . }}
+
+            <a href="/index.xml" target="_blank" class="text-xl hover:text-primary-600 dark:hover:text-primary-400" title="RSS">
+                {{ partial "icon.html" "rss" }}
+            </a>
 
             {{ if .Site.Params.enableSearch | default false }}
             <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"

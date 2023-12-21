@@ -1,5 +1,6 @@
 ---
 colorScheme: noir
+logo: img/logo.png
 
 enableSearch: true
 
@@ -28,7 +29,7 @@ article:
   showAuthor: false
 
 homepage:
-  layout: page
+  layout: profile
   showRecent: true
   showRecentItems: 10
   showMoreLink: true
