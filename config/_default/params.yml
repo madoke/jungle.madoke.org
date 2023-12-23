@@ -27,6 +27,7 @@ article:
   showTableOfContents: true
   showEdit: false
   showAuthor: false
+  showAuthorsBadges: false
 
 homepage:
   layout: profile
