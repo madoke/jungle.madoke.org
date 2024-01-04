@@ -3,3 +3,6 @@ main:
   - name: Articles
     pageRef: blog
     weight: 1
+  - name: RSS
+    url: https://wtjungle.com/index.xml
+    weight: 2

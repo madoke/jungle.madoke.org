@@ -2,7 +2,7 @@
 colorScheme: noir
 logo: img/logo.png
 
-enableSearch: true
+enableSearch: false
 
 keywords:
   - Engineering
