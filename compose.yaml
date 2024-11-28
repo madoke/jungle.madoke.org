@@ -1,13 +1,11 @@
+name: wtjungle
+
 services:
   hugo:
-    image: hugomods/hugo:0.121.0
-    working_dir: /app
+    image: hugomods/hugo:0.138.0
     volumes:
-      - type: bind
-        source: .
-        target: /app
-    expose:
-      - 1313
+      - ./:/src:z
+      - ./hugo_cache:/tmp/hugo_cache
     ports:
       - 1313:1313
-    command: hugo server --bind 0.0.0.0 -D
+    command: server -D

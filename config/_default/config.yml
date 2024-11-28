@@ -3,7 +3,8 @@ theme: blowfish
 baseUrl: https://wtjungle.com
 title: "Welcome to the jungle"
 defaultContentLanguage: en
-paginate: 10
+pagination:
+  pageSize: 10
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
